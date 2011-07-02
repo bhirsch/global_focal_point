@@ -49,3 +49,4 @@ dependencies[] = views
 dependencies[] = fqc
 dependencies[] = fctc
 dependencies[] = global_focal_point_roles
+dependencies[] = fctc_federated_query_endpoints

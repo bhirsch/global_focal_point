@@ -77,6 +77,24 @@ projects[global_focal_point_roles][download][url] = git@github.com:bhirsch/globa
 projects[global_focal_point_roles][download][branch] = master
 projects[global_focal_point_roles][subdir] = custom 
 
+projects[fctc_federated_query_endpoints][type] = module
+projects[fctc_federated_query_endpoints][download][type] = git 
+projects[fctc_federated_query_endpoints][download][url] = git@github.com:bhirsch/fctc_federated_query_endpoints.git
+projects[fctc_federated_query_endpoints][download][branch] = master
+projects[fctc_federated_query_endpoints][subdir] = custom 
+
 ; Libraries
 ; ---------
-; none 
+; This is sort of a hack. Normally this would be written like this: 
+;   libraries[arc2][download][type] = git 
+;   libraries[arc2][download][url] = git@github.com:semsol/arc2
+;   libraries[arc2][download][branch] = master
+; But the only way to get the correct depth of subdirectories etc.
+; and store it inside rdfx/vendor/arc is to pretend it's a module.
+
+projects[arc2][type] = module
+projects[arc2][download][type] = git 
+projects[arc2][download][url] = git@github.com:semsol/arc2
+projects[arc2][download][branch] = master
+projects[arc2][subdir] = contrib/rdfx/vendor
+projects[arc2][directory_name] = arc
