@@ -44,6 +44,10 @@ projects[field_group][subdir] = contrib
 projects[rdfx][subdir] = contrib
 
 projects[sparql][subdir] = contrib
+projects[sparql][download][type] = git 
+projects[sparql][download][url] = http://git.drupal.org/project/sparql.git
+projects[sparql][download][branch] = 7.x-2.x
+projects[sparql][subdir] = contrib
 
 projects[sparql_views][subdir] = contrib
 

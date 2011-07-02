@@ -42,6 +42,7 @@ dependencies[] = auto_nodetitle
 dependencies[] = date
 dependencies[] = entity
 dependencies[] = sparql
+dependencies[] = sparql_endpoint
 dependencies[] = views
 
 ;custom
