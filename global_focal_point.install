@@ -5,7 +5,7 @@
  *
  * Perform actions to set up the site for this profile.
  */
-function national_central_point_install() {
+function global_focal_point_install() {
   // Add text formats.
   $filtered_html_format = array(
     'format' => 'filtered_html',
