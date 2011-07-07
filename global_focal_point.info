@@ -40,6 +40,7 @@ dependencies[] = rdfui
 dependencies[] = strongarm
 dependencies[] = auto_nodetitle
 dependencies[] = date
+dependencies[] = date_popup
 dependencies[] = entity
 dependencies[] = sparql
 dependencies[] = sparql_endpoint
